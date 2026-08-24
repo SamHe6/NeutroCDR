@@ -43,7 +43,7 @@ Run five-fold cross-validation.
 
 ```bash
 python neutrocdr/run_cross_validation.py \
-  --config neutro_cdr_formal_esm_igbert.yaml \
+  --config neutrocdr/neutro_cdr_formal_esm_igbert.yaml \
   --out-dir results/neutro_cdr_5fold \
   --folds 5 \
   --epochs 100 \
