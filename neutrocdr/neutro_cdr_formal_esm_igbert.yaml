@@ -1,0 +1,38 @@
+data:
+  pair_table: data/neutralization/sarscov2_pairs.csv
+  esm_antigen_path: data/neutralization/esm_antigen_embeddings.pt
+  igbert_antibody_path: data/neutralization/igbert_antibody_embeddings.pt
+  cdr_mask_path: data/neutralization/cdr_masks.pt
+  max_antibody_len: 280
+  max_antigen_len: 1280
+
+model:
+  hidden_dim: 128
+  num_layers: 2
+  dropout: 0.2
+  use_physchem_bias: true
+  use_surface_bias: true
+  use_mutation_bias: true
+  use_esm_antigen: true
+  esm_dim: 320
+  use_igbert_antibody: true
+  igbert_dim: 1024
+  use_attention_fusion: true
+
+loss:
+  reg_weight: 0.5
+  consistency_weight: 0.1
+  consistency_temperature: 0.25
+  log_ic50_threshold: 1.0
+
+train:
+  epochs: 5
+  batch_size: 8
+  lr: 0.0003
+  weight_decay: 0.00001
+  grad_clip: 1.0
+  num_workers: 2
+  amp: true
+
+paths:
+  results_dir: results/neutro_cdr_formal_esm_igbert
