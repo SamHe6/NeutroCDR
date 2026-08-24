@@ -16,7 +16,7 @@ large-scale neutralization prediction potentially useful for antibody therapeuti
 
 ![The workflow of this study](https://github.com/SamHe6/NeutroCDR/blob/main/workflow.png)
 
-# Requirements<bar>
+# Requirements
 ```
 numpy>=1.24
 pandas>=2.0
