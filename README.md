@@ -36,7 +36,7 @@ anarcii==2.0.6
 We provided our dataset and you can find them [neutralization.zip](https://github.com/SamHe6/NeutroCDR/blob/main/neutralization.zip),[external](https://github.com/SamHe6/NeutroCDR/tree/main/external) and [subset](https://github.com/SamHe6/NeutroCDR/tree/main/subset).
 
 # Code
-We provide the source code and you can find them [neutrocdr](https://github.com/SamHe6/NeutroCDR/tree/main/neutrocdr)
+We provide the source code and you can find them [neutrocdr](https://github.com/SamHe6/NeutroCDR/tree/main/neutrocdr).
 
 # Training
 Run five-fold cross-validation.
