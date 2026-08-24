@@ -51,3 +51,4 @@ python neutrocdr/run_cross_validation.py \
   --min-delta 0.001 \
   --device cuda
 ```
+Checkpoints and metrics are saved under `results/neutro_cdr_5fold/fold_N/`, with aggregate results in `results/neutro_cdr_5fold/summary.json`.
