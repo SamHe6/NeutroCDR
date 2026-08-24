@@ -14,3 +14,6 @@ full, seen-antibody, and unseen-antibody subsets. Further attribution analysis r
 antigen sites as the key contributors to the performance. This work provides an interpretable computational approach for
 large-scale neutralization prediction potentially useful for antibody therapeutic development.
 
+![The workflow of this study](https://github.com/SamHe6/NeutroCDR/blob/main/workflow.png)
+
+
