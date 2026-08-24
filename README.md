@@ -38,3 +38,16 @@ We provided our dataset and you can find them [neutralization.zip](https://githu
 # Code
 We provide the source code and you can find them [neutrocdr](https://github.com/SamHe6/NeutroCDR/tree/main/neutrocdr)
 
+# Training
+Run five-fold cross-validation.
+
+```bash
+python scripts/run_cross_validation.py \
+  --config configs/neutro_cdr_formal_esm_igbert.yaml \
+  --out-dir results/neutro_cdr_5fold \
+  --folds 5 \
+  --epochs 100 \
+  --patience 12 \
+  --min-delta 0.001 \
+  --device cuda
+```
