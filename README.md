@@ -42,8 +42,8 @@ We provide the source code and you can find them [neutrocdr](https://github.com/
 Run five-fold cross-validation.
 
 ```bash
-python scripts/run_cross_validation.py \
-  --config configs/neutro_cdr_formal_esm_igbert.yaml \
+python neutrocdr/run_cross_validation.py \
+  --config neutro_cdr_formal_esm_igbert.yaml \
   --out-dir results/neutro_cdr_5fold \
   --folds 5 \
   --epochs 100 \
