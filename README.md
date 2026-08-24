@@ -16,4 +16,25 @@ large-scale neutralization prediction potentially useful for antibody therapeuti
 
 ![The workflow of this study](https://github.com/SamHe6/NeutroCDR/blob/main/workflow.png)
 
+# Requirements<bar>
+```
+numpy>=1.24
+pandas>=2.0
+pyyaml>=6.0
+scipy>=1.10
+scikit-learn>=1.3
+tqdm>=4.66
+
+torch>=2.0
+transformers>=4.40
+
+abnumber==0.4.4
+anarcii==2.0.6
+```
+
+# Datasets
+We provided our dataset and you can find them [neutralization.zip](https://github.com/SamHe6/NeutroCDR/blob/main/neutralization.zip),[external](https://github.com/SamHe6/NeutroCDR/tree/main/external) and [subset](https://github.com/SamHe6/NeutroCDR/tree/main/subset).
+
+# Code
+We provide the source code and you can find them [neutrocdr](https://github.com/SamHe6/NeutroCDR/tree/main/neutrocdr)
 
