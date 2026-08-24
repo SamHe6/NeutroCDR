@@ -1,8 +1,8 @@
 data:
-  pair_table: data/neutralization/sarscov2_pairs.csv
-  esm_antigen_path: data/neutralization/esm_antigen_embeddings.pt
-  igbert_antibody_path: data/neutralization/igbert_antibody_embeddings.pt
-  cdr_mask_path: data/neutralization/cdr_masks.pt
+  pair_table: neutralization/sarscov2_pairs.csv
+  esm_antigen_path: embedding/esm_antigen_embeddings.pt
+  igbert_antibody_path: embedding/igbert_antibody_embeddings.pt
+  cdr_mask_path: cdr_masks.pt
   max_antibody_len: 280
   max_antigen_len: 1280
 
